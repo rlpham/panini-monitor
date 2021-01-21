@@ -172,7 +172,7 @@ class NewProductMonitor {
           value: `[Product Link](https://www.paniniamerica.net/${value.url_key}) | [Cart](https://www.paniniamerica.net/cart.html) | [Checkout](https://www.paniniamerica.net/cart.html?s=2)`}
       )
       .setTimestamp()
-      .setFooter(`Panini Monitor By @AdroitMonitors ${moment().format('h:mm:ss a')}`, 'https://cdn.discordapp.com/attachments/536440375368220690/791551894472097809/Profile_Pic.png')
+      .setFooter(`Panini Monitor By Bompton#7777 ${moment().format('h:mm:ss a')}`)
   }
 
   sendDiscordNotification(embed) {
